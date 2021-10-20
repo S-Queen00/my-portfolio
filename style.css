@@ -1,0 +1,14 @@
+h1 {
+  color: black;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  flex: none;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
