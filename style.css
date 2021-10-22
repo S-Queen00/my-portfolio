@@ -1,14 +1,80 @@
-h1 {
-  color: black;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
-img {
-  width: 20%;
+.header {
+  background-color: #333333;
+  color: white;
+  height: 90px;
+  margin: 20px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list2 li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  background-color: #cccccc;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.main-list {
+  color: white;
+  background-color: #333333;
+  width: 75px;
+  height: 30px;
+  margin-top: 40px;
+}
+.main-head {
+  background-color: #666666;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.text {
+  background-color: ivory;
+  font-size: 20px;
+  width: 250px;
+  height: 70px;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.MGUimg {
+  margin: 40px;
+}
+
+.movieImg {
+  width: 50%;
   height: auto;
-  flex: none;
+  display: flex;
+  margin: 10px;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
+.hobby-list {
+  justify-self: auto;
+  background-color: ivory;
+  font-size: 20px;
+  width: 300px;
+  height: 90px;
+  padding-top: 10px;
+  list-style-position: inside;
+  margin: 0 auto;
+}
+
+.btn-color {
+  font-size: 20px;
+  background-color: #666666;
+  border: inset 10px #ffffff;
+  margin: 10px;
 }

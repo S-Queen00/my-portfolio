@@ -9,33 +9,56 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>My Portfolio<h1>
-      <h2 id = "Name">Name</h2>
-      <div id = "nameText">Saki Takeda</div>
+    <div class ="header">
+      <div class="header-logo">My Portfolio</div>
+       <div class= "header-list">
+        <ul class="header-list2">
+          <li>Profile</li>
+          <li>Quiz</li>
+          <li>Link</li>
+        </ul>
+       </div>
+    </div>
+
+    <div class="main">
+      <h2 class="main-list">Profile</h2>
+      <h3 id = "Name" class="main-head">Name</h3>
+        <div id = "nameText" class="text">Saki Takeda</div>
       
-      <h2 id = "Age">Age</h2>
-      <div> 21</div>
+      <h3 id = "Age" class="main-head">Age</h3>
+        <div class="text"> 21</div>
 
-      <h2 id = "University">University</h2>
-      <div>Miyagi Gakuin Women's University</div>
-      <img src="https://shingaku.mynavi.jp/img/psip/21003368/210820155719/1.jpg">
+      <h3 id = "University" class="main-head">University</h3>
+        <div class="text">Miyagi Gakuin Women's University</div>
+        <img src="https://shingaku.mynavi.jp/img/psip/21003368/210820155719/1.jpg"  class="MGuimg">
 
-      <h2 id = "Hobby">Hobby</h2>
-      <div>Watching movies</div>
-      <h3>Quiz!<h3>
-        <p1>Which one is Saki's faorite movie?</p1>
+      <h3 id = "Hobbies" class="main-head">Hobbies</h3>
+        <ul class="hobby-list">
+          <li>Watching movies</li>
+          <li>Music</li>
+          <li>Drawing picture</li>
+        </ul>
+
+      <h2 class="main-list">Quiz!<h2>
+      <div class="text">Which one is Saki's faorite movie?</div>
         <div>
-        <button id = "avengers">The Avengers</button>
-        <button id = "goodWill">Good Will Hunting</button>
-        <button id = "Gattaca">Gattaca</button>
-        <div id = "answer"></div>
-        <div id ="movieContents"></div>
-        <li>
-          <img src="https://france-chebunbun.com/wp-content/uploads/2019/04/avengersendgame.jpg">
-          <img src="https://m.media-amazon.com/images/I/81QTM2LkVPL._AC_SY445_.jpg">
-          <img src="https://movie-architecture.com/wp-content/uploads/2020/01/gattaca-1-280x397.jpg">
-        </li>
-      </div>
+          <button id = "avengers" class="btn-color">The Avengers</button>
+          <button id = "goodWill" class="btn-color">Good Will Hunting</button>
+          <button id = "Gattaca" class="btn-color">Gattaca</button>
+          <div id = "answer"></div>
+            <div id ="movieContents"></div>
+            <ul>
+              <li class="movieImg">
+                <img src="https://france-chebunbun.com/wp-content/uploads/2019/04/avengersendgame.jpg" class="movieImg">
+                <img src="https://m.media-amazon.com/images/I/81QTM2LkVPL._AC_SY445_.jpg" class="movieImg">
+                <img src="https://movie-architecture.com/wp-content/uploads/2020/01/gattaca-1-280x397.jpg" class="movieImg">
+              </li>
+              </ul>
+            </div>
+
+      <h2 class="main-list">Link</h2>
+      <div><a href="https://www.instagram.com/s_kqueen___/">instagram(@s_kqueen___)</a></div>
+    </div>
       <script src="main.js"></script>
   </body>
 </html>
